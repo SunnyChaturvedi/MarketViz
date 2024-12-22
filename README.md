@@ -54,23 +54,29 @@ MarketViz Index Dashboard is a tool that:
 
 ## To Run
 
-Simply run via `docker-compose up --build` or follow below steps to run locally
+You have two options to run the application: via Docker or locally.
+
+#### Option 1: Run via Docker
+
+1. Ensure you have Docker and Docker Compose installed on your machine.
+2. Navigate to the project directory.
+3. Run the following command to build and start the application:
+```
+docker-compose up --build
+```
+
+#### Option 2: Run Locally
 
 1. Clone the repository or download it locally.
-
 2. Create and activate a virtual environment (recommended):
-
 ```
 python3 -m venv virtualenv_name
 source virtualenv_name/bin/activate
 ```
-
 3. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-
-
 4. Start the Streamlit dashboard:
 ```
 streamlit run app.py
