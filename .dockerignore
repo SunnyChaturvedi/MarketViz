@@ -1,0 +1,9 @@
+# Ignore virtual environment directories
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.png
+*.pdf
+*.xlsx
