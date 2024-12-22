@@ -103,3 +103,14 @@ MarketViz index/
 - Data is stored in memory (in RAM) in SQLite, which means that as soon as the app closes, the data is gone. We could have persisted it on disk, but then it would come with its own set of challenges, to avoid dealing with database configuration and maintenance overhead for this personal project we went on with in memory DB. Also a plus point is In-memory operations are significantly faster than disk I/O, so our intereactive dashboards are faster in views.
 - Everything is displayed using Streamlit to a dashboard. There is a slider to view the percentage-wise distribution of companies by market cap among the top 100 ones.
 - You get to see on which date what composition was present for the index and what additions and deletions have happened. The composition change dates get separately highlighted. All of these insights are exportable to PDF or XLSX.
+
+
+
+&nbsp;
+&nbsp;
+
+
+## Presentation Link
+
+Link : 
+https://docs.google.com/presentation/d/1up7ICj-j0BJO7SM2mRafGwRk241KxgYZGOvDxc-YaS0/edit?usp=sharing
