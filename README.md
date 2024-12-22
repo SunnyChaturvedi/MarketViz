@@ -54,6 +54,8 @@ MarketViz Index Dashboard is a tool that:
 
 ## To Run
 
+Simply run via `docker-compose up --build` or follow below steps to run locally
+
 1. Clone the repository or download it locally.
 
 2. Create and activate a virtual environment (recommended):
