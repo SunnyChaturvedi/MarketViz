@@ -1,13 +1,13 @@
 # MarketViz Index
 
-A Python-based system for creating and managing a custom stock market index that tracks top companies by market capitalization. Displayed on a dashboard with insights for intuitive viewing.
+A Python-based ETL system for creating and managing a custom stock market index that tracks top companies by market capitalization. Displayed on a dashboard with insights for intuitive viewing.
 
 ![screencapture-localhost-8501-2024-12-02-22_13_37](./app.png)
 
 
 ## Overview
 
-MarketViz Index Dashboard is a tool that:
+MarketViz Index Dashboard is a ETL tool that:
 - Fetches list of stock tickers from NASDAQ itself (configurable)
 - Calculates a custom equi-weighted index based on the top K (=100 here, cofigurable) stocks by market capitalization.
 - Stores historical daily index value, daily gains and compositions for the index.
